@@ -6,13 +6,13 @@ The project uses the MNIST dataset to develop and compare various neural network
 **Dataset**
 
 Source: MNIST handwritten digit dataset
-Total Samples: 70,000 images (60,000 training, 10,000 testing)
-Image Dimensions: 28 x 28, normalized to pixel values between 0 and 1
-Labels: Digits 0−9
-Data Split:
-Training: 80% of training data
-Validation: 20% of training data
-Testing: 100% of test data
+- Total Samples: 70,000 images (60,000 training, 10,000 testing)
+- Image Dimensions: 28 x 28, normalized to pixel values between 0 and 1
+- Labels: Digits 0−9
+- Data Split:
+  -Training: 80% of training data
+  - Validation: 20% of training data
+  - Testing: 100% of test data
 
 **Models Implemented**
 
@@ -24,13 +24,13 @@ The following models were implemented and evaluated:
 
 **Key Techniques and Parameters**
 
-Loss Function: Cross-Entropy Loss
-Optimizer: Adam Optimizer
-Learning Rates: Tested 0.1, 0.01, 0.001.
-Regularization Techniques:
-Early Stopping: Monitors validation loss to prevent overfitting.
-Dropout Layers: Randomly deactivates neurons during training.
-L2 Regularization: Penalizes large weights to reduce model complexity.
+1. Loss Function: Cross-Entropy Loss
+2. Optimizer: Adam Optimizer
+3. Learning Rates: Tested 0.1, 0.01, 0.001.
+4. Regularization Techniques:
+   a. Early Stopping: Monitors validation loss to prevent overfitting.
+   b. Dropout Layers: Randomly deactivates neurons during training.
+   c. L2 Regularization: Penalizes large weights to reduce model complexity.
 
 **Top Model**
 
