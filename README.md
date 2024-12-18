@@ -17,10 +17,10 @@ Testing: 100% of test data
 **Models Implemented**
 
 The following models were implemented and evaluated:
-DNN (Deep Neural Network)
-ConvNet (Convolutional Neural Network)
-VGG (Visual Geometry Group)
-ResNet (Residual Neural Network)
+1. DNN (Deep Neural Network)
+2. ConvNet (Convolutional Neural Network)
+3. VGG (Visual Geometry Group)
+4. ResNet (Residual Neural Network)
 
 **Key Techniques and Parameters**
 
